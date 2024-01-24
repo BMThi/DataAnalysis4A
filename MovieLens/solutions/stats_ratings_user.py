@@ -1,0 +1,1 @@
+pd.DataFrame(n_ratings_ind).describe()

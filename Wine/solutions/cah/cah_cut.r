@@ -1,0 +1,1 @@
+ClassK3 = cutree(hclustcomplete, 3)

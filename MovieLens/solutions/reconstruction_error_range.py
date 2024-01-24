@@ -1,0 +1,1 @@
+print("Range of predicted ratings: %i to %i" % (R_pred.min(), R_pred.max()))
