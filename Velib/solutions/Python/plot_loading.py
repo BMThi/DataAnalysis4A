@@ -14,7 +14,7 @@ plt.vlines(x = np.linspace(1, n_steps, 8), ymin = 0, ymax = 1,
 
 plt.xlabel('Time', fontsize = 20)
 plt.ylabel('Loading', fontsize = 20)
-plt.title(velibAdds.names[1 + i], fontsize = 25)
+plt.title(adds.names[1 + i], fontsize = 25)
 plt.xticks(fontsize = 15)
 plt.yticks(fontsize = 15)
 plt.tight_layout()

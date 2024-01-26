@@ -8,8 +8,8 @@ mean_per_hour = mean_per_hour_per_day.mean(axis=0)
 days = ["Monday", "Tuesday", "Wednesday","Thursday", "Friday", "Saturday", "Sunday"]
 plt.figure(figsize = (15,10))
 
-plt.plot(mean_per_hour, color = "black", linewidth = 3)
 plt.plot(mean_per_hour_per_day.transpose())
+plt.plot(mean_per_hour, color = "black", linewidth = 3)
 
 plt.xlabel('Hourly loading, averaged over all stations', fontsize = 20)
 plt.ylabel('Loading', fontsize = 20)
