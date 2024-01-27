@@ -1,7 +1,7 @@
 ## Simple 2D representation
 # Loading at 6pm, depending on the day of the week
 
-h = 18
+h     = 18
 hours = np.arange(h, 168, 24)
 
 load_per_hour = loading_data[:, hours]
@@ -16,7 +16,7 @@ fig, axs = plt.subplots(k, m, figsize = (s*(m+.5), s*k))
 
 for (i,d) in enumerate(days):
     loc = i//m, i-m*(i//m)
-    im = axs[loc].scatter(coord.latitude, coord.longitude, c = load_per_hour[:,i], cmap = cm.plasma_r)
+    im  = axs[loc].scatter(coord.latitude, coord.longitude, c = load_per_hour[:,i], cmap = cm.plasma_r)
     axs[loc].set_title('Stations loading - ' + d + ' {} h'.format(h), fontsize = 25)
     plt.colorbar(im, ax=axs[loc])
         

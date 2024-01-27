@@ -20,9 +20,9 @@ The tutorials of this course are in the form of Jupyter notebooks.
 
 **Data** - [Velib dataset](Velib/data/) <br>
 
-**Launch notebook** - [Lauch notebook in R](Velib/PT_velib_R.ipynb) <br>
+**Launch notebook** - [Lauch notebook in R](Velib/TP_velib_R.ipynb) <br>
 
-**Launch notebook** - [Lauch notebook in Python](Velib/PT_velib_Python.ipynb)
+**Launch notebook** - [Lauch notebook in Python](Velib/TP_velib_Python.ipynb)
 
 <br>
 

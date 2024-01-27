@@ -1,8 +1,5 @@
-loading_hill = loading_data[coord.bonus == 1]
-coord_hill = coord.to_numpy()[coord.bonus == 1]
-
+loading_hill   = loading_data[coord.bonus == 1]
 loading_valley = loading_data[coord.bonus == 0]
-coord_valley = coord.to_numpy()[coord.bonus == 0]
 
 # --- #
 
