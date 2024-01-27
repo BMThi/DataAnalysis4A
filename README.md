@@ -9,7 +9,6 @@ This course is dedicated to learning the _multidimensional exploratory methods_ 
 
 <br>
 
----
 
 The tutorials of this course are in the form of Jupyter notebooks.
 - Make sure you have an **R kernel** installed on Jupyter. Otherwise: [Native R kernel for Jupyter](https://github.com/IRkernel/IRkernel) on GitHub.
