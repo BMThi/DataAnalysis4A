@@ -16,7 +16,7 @@ The tutorials of this course are in the form of Jupyter notebooks.
 <br>
 
 
-## Class Project
+## [Class Project](Velib)
 
 **Data** - [Velib dataset](Velib/data/) <br>
 
