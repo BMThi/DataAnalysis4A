@@ -2,7 +2,7 @@
 
 Notebooks to give you a starting point for your data analysis project.
 
-> You will have three self-directed sessions to work on your project, plus your personal work time.
+> _You will have three self-directed sessions to work on your project, plus your personal work time._
 
 ### Description and Aim:
 - The data are loading profiles of the bike stations over one week, collected every hour, from the period of Monday 2nd September to Sunday 7th September, 2014. The loading profile of a station, or simply loading, is defined as the ratio of number of available bikes divided by the number of bike docks.
@@ -24,6 +24,5 @@ Notebooks to give you a starting point for your data analysis project.
 - An R notebook,
 - A Python notebook.
 
-<br>
 
 > Remember to register your group on the course [moodle](https://moodle.insa-toulouse.fr/course/view.php?id=1340&section=2) page.
