@@ -9,14 +9,20 @@ This course is dedicated to learning the _multidimensional exploratory methods_ 
 
 <br>
 
+The tutorials of this course are in the form of Jupyter notebooks.
+- Make sure you have an **R kernel** installed on Jupyter. Otherwise: [Native R kernel for Jupyter](https://github.com/IRkernel/IRkernel) on GitHub.
+-  I highly recommend using [JupyterLab](https://jupyter.org/install), whose interface offers far more possibilities (including opening several notebooks simultaneously on several tabs) than conventional notebooks.
+
+<br>
+
 
 ## Class Project
 
-**Data** - [Velib dataset](velib/data/) <br>
+**Data** - [Velib dataset](Velib/data/) <br>
 
-**Launch notebook** - [Lauch notebook in R](velib/PT_velib_R.ipynb) <br>
+**Launch notebook** - [Lauch notebook in R](Velib/PT_velib_R.ipynb) <br>
 
-**Launch notebook** - [Lauch notebook in Python](velib/PT_velib_Python.ipynb)
+**Launch notebook** - [Lauch notebook in Python](Velib/PT_velib_Python.ipynb)
 
 <br>
 
