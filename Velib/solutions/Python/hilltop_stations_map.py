@@ -1,8 +1,8 @@
-adds['hill'] = adds['bonus'].astype('category') # convert to categorical
+coord['hill'] = coord['bonus'].astype('category') # convert to categorical
 
 # --- #
 
-fig = px.scatter_mapbox(adds, lat = 'latitude', lon = 'longitude', 
+fig = px.scatter_mapbox(coord, lat = 'latitude', lon = 'longitude', 
                         mapbox_style = "carto-positron",
                         color = 'hill', 
                         color_discrete_map = {0:'midnightblue', 1:'plum'},

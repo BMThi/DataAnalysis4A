@@ -1,9 +1,12 @@
-loading_hill = loading_data[adds.bonus == 1]
-adds_hill = adds.to_numpy()[adds.bonus == 1]
+loading_hill = loading_data[coord.bonus == 1]
+coord_hill = coord.to_numpy()[coord.bonus == 1]
+
+loading_valley = loading_data[coord.bonus == 0]
+coord_valley = coord.to_numpy()[coord.bonus == 0]
 
 # --- #
 
-size = [len(loading_hill), len(loading_data)-len(loading_hill)]
+size = [len(loading_hill), len(loading_valley)]
 labels = ['1', '0']
 
 plt.pie(size, labels = labels, autopct="%1.1f%%", 

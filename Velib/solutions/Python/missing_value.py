@@ -6,7 +6,7 @@ print(loading_missing_value.sum())
 # --- #
 print('')
 
-adds_missing_value = adds.isna().sum().sort_values(ascending=False)
+coord_missing_value = coord.isna().sum().sort_values(ascending=False)
 
-print('--- Adds ---')
-print(adds_missing_value)
+print('--- Coord ---')
+print(coord_missing_value)

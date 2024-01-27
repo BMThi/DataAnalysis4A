@@ -3,9 +3,13 @@ stations   = np.arange(n_stations)
 
 plt.figure(figsize = (20,6))
 
+# --- #
+
 plt.plot(loading_mean)
 plt.hlines(y = loading.mean().mean(), xmin=0, xmax=n_stations, 
            colors = "OrangeRed", linewidth = 3)
+
+# --- #
 
 plt.xlabel('Stations', fontsize = 20)
 plt.ylabel('Average loading', fontsize = 20)

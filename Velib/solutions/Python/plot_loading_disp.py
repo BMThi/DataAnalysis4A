@@ -1,5 +1,7 @@
 plt.figure(figsize = (20,6))
 
+# --- #
+
 bp = plt.boxplot(loading_data, widths = 0.75, patch_artist = True)
 
 for box in bp['boxes']:
@@ -8,10 +10,12 @@ for box in bp['boxes']:
 for median in bp['medians']:
     median.set(color = "Purple", linewidth=5)
     
+# --- #
     
-plt.vlines(x = np.linspace(1, n_steps, 8), ymin = 0, ymax = 1, 
+plt.vlines(x = time_tick, ymin = 0, ymax = 1, 
            colors = "Orange", linestyle = "dotted", linewidth = 5)
 
+# --- #
 
 plt.xlabel('Time', fontsize = 20)
 plt.ylabel('Loading', fontsize = 20)

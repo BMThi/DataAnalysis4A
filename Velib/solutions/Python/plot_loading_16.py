@@ -10,10 +10,9 @@ fig, axs = plt.subplots(4, 4, figsize = (15,12))
 for i in range(4):
     for j in range(4):
         k_station = stations[4 * i + j]
-        axs[i, j].plot(time, loading_data[k_station, :], linewidth = 1, color = 'purple')
-        axs[i, j].set_title(adds.names[1 + k_station], fontsize = 12)
-        axs[i, j].vlines(x = np.linspace(1, n_steps, 8), ymin = 0, ymax = 1, 
-                         colors = "orange", linestyle = "dotted", linewidth = 3)
+        axs[i, j].plot(time_range, loading_data[k_station, :], linewidth = 1, color = 'purple')
+        axs[i, j].vlines(x = time_tick, ymin = 0, ymax = 1, colors = "orange", linestyle = "dotted", linewidth = 3)
+        axs[i, j].set_title(coord.names[1 + k_station], fontsize = 12)
 
 for ax in axs.flat:
     ax.set_xlabel('Time', fontsize = 12)

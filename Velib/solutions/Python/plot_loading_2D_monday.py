@@ -9,7 +9,7 @@ s, n = 10, len(hours)
 fig, axs = plt.subplots(1, n, figsize = (s*n, s))
 
 for (i,h) in enumerate(hours):
-    im = axs[i].scatter(adds.latitude, adds.longitude, c = loading_data[:,h], cmap = cm.plasma_r)
+    im = axs[i].scatter(coord.latitude, coord.longitude, c = loading_data[:,h], cmap = cm.plasma_r)
     axs[i].set_title('Stations loading - Monday {} h'.format(h), fontsize = 25)
     plt.colorbar(im, ax=axs[i])
         

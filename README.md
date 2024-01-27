@@ -14,9 +14,9 @@ This course is dedicated to learning the _multidimensional exploratory methods_ 
 
 **Data** - [Velib dataset](velib/data/) <br>
 
-**Launch notebook** - [Lauch notebook in R](velib/) <br>
+**Launch notebook** - [Lauch notebook in R](velib/PT_velib_R.ipynb) <br>
 
-**Launch notebook** - [Lauch notebook in Python](velib/)
+**Launch notebook** - [Lauch notebook in Python](velib/PT_velib_Python.ipynb)
 
 <br>
 
