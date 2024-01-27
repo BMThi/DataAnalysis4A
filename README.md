@@ -7,7 +7,6 @@ This course is dedicated to learning the _multidimensional exploratory methods_ 
 
 > [Course moodle page](https://moodle.insa-toulouse.fr/course/view.php?id=1340)
 
-<br>
 
 ---
 
