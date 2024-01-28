@@ -31,7 +31,7 @@ The tutorials of this course are in the form of Jupyter notebooks.
 ## PART I: Basic dimension reduction methods
 
 **TP - Digits** - [Visualization and denoising of handwritten digits](Digits/). <br>
-_Goal:_Refresh Principal Component Analysis (PCA) and the associated [Python](https://www.python.org/) formulas. Apply this technique to a simple dataset made up of handwritten digits.
+_Goal:_ Refresh Principal Component Analysis (PCA) and the associated [Python](https://www.python.org/) formulas. Apply this technique to a simple dataset made up of handwritten digits.
 <br>
 
 **TP - Human Activity Recognition (HAR)** - [Smartphone signal analysis](HumanActivityRecognition/). <br>
