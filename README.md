@@ -1,4 +1,4 @@
-## <a href="http://www.insa-toulouse.fr/" ><img src="https://www.insa-toulouse.fr/wp-content/uploads/2022/10/Logo_INSAvilletoulouse-RVB.jpg" style="float:left; max-width: 20px; display: inline" alt="INSA Toulouse"/></a> [*Applied Mathematics*](http://www.math.insa-toulouse.fr/fr/index.html),&nbsp; [`Data Science`](http://www.math.insa-toulouse.fr/fr/enseignement.html) 
+## <a href="http://www.insa-toulouse.fr/" ><img src="https://www.insa-toulouse.fr/wp-content/uploads/2022/10/Logo_INSAvilletoulouse-RVB.jpg" style="float:left; max-width: 10%; height: auto; display: inline" alt="INSA Toulouse"/></a> [*Applied Mathematics*](http://www.math.insa-toulouse.fr/fr/index.html),&nbsp; [`Data Science`](http://www.math.insa-toulouse.fr/fr/enseignement.html) 
 
 
 # Data Analysis
