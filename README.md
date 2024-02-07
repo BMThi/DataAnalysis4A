@@ -21,9 +21,9 @@ The tutorials of this course are in the form of Jupyter notebooks.
 
 **Data** - [Velib dataset](Velib/data/) <br>
 
-**Launch notebook** - [Lauch notebook in R](Velib/TP_velib_R.ipynb) <br>
+**Launch notebook** - [Lauch notebook in Python](Velib/TP_velib_Python.ipynb) <br>
 
-**Launch notebook** - [Lauch notebook in Python](Velib/TP_velib_Python.ipynb)
+**Launch notebook** - [Lauch notebook in R](Velib/TP_velib_R.ipynb) 
 
 <br>
 
@@ -34,8 +34,8 @@ The tutorials of this course are in the form of Jupyter notebooks.
 _Goal:_ Refresh Principal Component Analysis (PCA) and the associated [Python](https://www.python.org/) formulas. Apply this technique to a simple dataset made up of handwritten digits.
 <br>
 
-**TP - Human Activity Recognition (HAR)** - [Smartphone signal analysis](HumanActivityRecognition/). <br>
-_Goal:_ Use case of human activity recognition from smartphone recordings (gyroscope, accelerometer) to illustrate the main exploration and learning stages common to data science: Exploration and initial modeling using PCA, LDA, logistic regression.
+**TP - Human Resources (HR)** - [HR Data Analysis and Attrition Prediction](HumanResources/). <br>
+_Goal:_ Implement a classification using a logistic regression model on the one hand, and an LDA decomposition on the other, on HR data.
 
 <br>
 
