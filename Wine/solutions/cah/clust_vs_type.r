@@ -1,12 +1,17 @@
 # Clusters vs Type of wine
 
-table(ClassK3, wine$Type)
+tbl = table(wine$Type, reshclust)
+print(tbl)
+
+options(repr.plot.width = 9, repr.plot.height = 6)
+mosaicplot(tbl, color=c(2:4))
 
 # --- #
+options(repr.plot.width = 15, repr.plot.height = 6)
 
-options(repr.plot.width = 10, repr.plot.height = 8)
-
-ggarrange(
-    fviz_pca(acp, col.ind=as.factor(ClassK3), geom=c("point"), axes=c(1,2)),
-    fviz_pca_ind(acp, axes=c(1,2), geom=c("point"), habillage=wine$Type)
+grid.arrange(
+    fviz_pca(pca, axes=c(1,2), geom = c("point"), col.ind=as.factor(reshclust)),
+    fviz_pca_ind(pca, axes=c(1,2), geom=c("point"), habillage=as.factor(reshclust)),
+    fviz_pca_ind(pca, axes=c(1,2), geom=c("point"), habillage=wine$Type),
+    ncol=3
 )

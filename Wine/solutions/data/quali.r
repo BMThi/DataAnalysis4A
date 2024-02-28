@@ -1,7 +1,10 @@
-grid.arrange(
-    # For the Quality variable
-    ggplot(wine, aes(x=Quality, y=..prop.., group=1, fill=factor(..x..), color=factor(..x..))) + geom_bar(alpha=.5),
-    # For the Type variable
-    ggplot(wine, aes(x=Type, y=..prop.., group=1, fill=factor(..x..), color=factor(..x..))) + geom_bar(alpha=.5),     
-ncol=2
-)
+p1 = ggplot(wine) +
+    aes(x=Quality, color=Quality, fill=Quality) +
+    geom_bar(alpha=.5)
+
+p2 = ggplot(wine) +
+    aes(x=Type, y=after_stat(prop), group=TRUE, fill=factor(after_stat(x)), color=factor(after_stat(x))) + 
+    labs(fill="Type (%)", color="Type (%)") +
+    geom_bar(alpha=.5)
+
+grid.arrange(p1, p2, ncol=2)

@@ -1,10 +1,17 @@
-#Cluster vs Quality
-table(wine$Quality, reskmeans$cluster)
+# Cluster vs Quality
+
+tbl = table(wine$Quality, reskmeans$cluster)
+print(tbl)
+
+options(repr.plot.width = 9, repr.plot.height = 6)
+mosaicplot(tbl, color=c(2:4))
 
 # --- #
+options(repr.plot.width = 15, repr.plot.height = 6)
 
-#Cluster
-ggarrange(
-    fviz_pca(acp, col.ind=as.factor(reskmeans$cluster), geom = c("point"), axes=c(1,2)),
-    fviz_pca_ind(acp,axes=c(1,2), geom=c("point"), habillage=wine$Quality)
-)clust_vs_quality
+grid.arrange(
+    fviz_pca(pca, axes=c(1,2), geom = c("point"), col.ind=as.factor(reskmeans$cluster)),
+    fviz_pca_ind(pca, axes=c(1,2), geom=c("point"), habillage=as.factor(reskmeans$cluster)),
+    fviz_pca_ind(pca, axes=c(1,2), geom=c("point"), habillage=wine$Quality),
+    ncol=3
+)

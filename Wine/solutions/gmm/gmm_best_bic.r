@@ -1,5 +1,6 @@
-resBIC = Mclust(wine3, G=9, modelNames = "VVE")
+options(repr.plot.width = 10, repr.plot.height = 6)
 
+resBIC = Mclust(wine3, G=9, modelNames = "VVE")
 fviz_cluster(resBIC, data=wine3, ellipse.type="norm", geom="point")
 
 # --- #

@@ -1,4 +1,6 @@
-# Elbow method used with total within sum of square as metric
+# The elbow method method use total within sum of square as metric
+
+options(repr.plot.width = 9, repr.plot.height = 6)
 
 fviz_nbclust(wine2[,-c(1,2)], FUNcluster=kmeans, method="wss") +
-    ggtitle("Optional number of cluster according Elbow")
+    ggtitle("Within sum of square (WSS) according to the number of clusters")

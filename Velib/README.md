@@ -20,7 +20,7 @@ Notebooks to give you a starting point for your data analysis project.
 
 
 ### Deliverables: 
-- A PDF file,
+- A oral presentation,
 - An R notebook,
 - A Python notebook.
 
