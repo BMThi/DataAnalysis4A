@@ -4,10 +4,10 @@ cmap = plt.get_cmap('Set3', K)
 
 # -- #
 
-ac_ss = AgglomerativeClustering(n_clusters=K, compute_distances=True, linkage="ward")
+ac_ss = AgglomerativeClustering(n_clusters=K, compute_distances=True, linkage='ward')
 clusters_ac_ss = ac_ss.fit_predict(mars_reduced_samples)
 
-ac = AgglomerativeClustering(n_clusters=K, compute_distances=True, linkage="ward")
+ac = AgglomerativeClustering(n_clusters=K, compute_distances=True, linkage='ward')
 clusters_ac = ac.fit_predict(mars_reduced)
 
 # -- #

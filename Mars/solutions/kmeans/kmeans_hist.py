@@ -1,6 +1,6 @@
 K = 6
 
-kmeans_pca = KMeans(n_clusters=K, random_state=0)
+kmeans_pca = KMeans(n_clusters=K, init='k-means++', n_init='auto', random_state=0)
 clusters_pca = kmeans_pca.fit_predict(mars_reduced)
 
 # ----- #

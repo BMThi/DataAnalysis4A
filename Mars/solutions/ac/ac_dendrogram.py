@@ -1,6 +1,6 @@
 K = 6
 
-ac = AgglomerativeClustering(n_clusters=K, compute_distances=True, linkage="ward")
+ac = AgglomerativeClustering(n_clusters=K, compute_distances=True, linkage='ward')
 clusters = ac.fit(mars_reduced_samples)
 
 children = ac.children_

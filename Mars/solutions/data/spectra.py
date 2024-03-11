@@ -7,4 +7,5 @@ for i in range(sample.shape[0]):
 plt.title("Spectrum of the first %i pixels" % sample.shape[0])
 plt.xlabel("Wave length")
 plt.ylabel("Measured value")
+plt.xlim(0,dim_spectral)
 plt.show()

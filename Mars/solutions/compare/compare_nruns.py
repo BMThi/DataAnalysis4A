@@ -6,7 +6,7 @@ n_run = 10
 fm = []
 nmi = []
 for i in range(n_run):
-    clusters = KMeans(K).fit_predict(mars_reduced)
+    clusters = KMeans(K, init='k-means++', n_init='auto').fit_predict(mars_reduced)
     fm.append(fowlkes_mallows_score(clusters, clusters_expert))
     nmi.append(normalized_mutual_info_score(clusters, clusters_expert))
 fm = np.array(fm)

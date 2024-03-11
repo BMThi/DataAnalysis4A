@@ -10,27 +10,38 @@ cm, clusters_gmm_sorted = matchClasses(clusters_expert, clusters_gmm)
 cm, clusters_ac_sorted = matchClasses(clusters_expert, clusters_ac)
 
 mars_image_expert = clusters_expert.reshape((n_pixel_x, n_pixel_y))
-mars_image_kmeans = clusters_kmeans_sorted.reshape((n_pixel_x, n_pixel_y))
-mars_image_gmm = clusters_gmm_sorted.reshape((n_pixel_x, n_pixel_y))
-mars_image_ac = clusters_ac_sorted.reshape((n_pixel_x, n_pixel_y))
+
+sort = False
+if sort:
+    mars_image_kmeans = clusters_kmeans_sorted.reshape((n_pixel_x, n_pixel_y))
+    mars_image_gmm = clusters_gmm_sorted.reshape((n_pixel_x, n_pixel_y))
+    mars_image_ac = clusters_ac_sorted.reshape((n_pixel_x, n_pixel_y))
+else:
+    mars_image_kmeans = clusters_kmeans.reshape((n_pixel_x, n_pixel_y))
+    mars_image_gmm = clusters_gmm.reshape((n_pixel_x, n_pixel_y))
+    mars_image_ac = clusters_ac.reshape((n_pixel_x, n_pixel_y))
 
 # -- #
 
 plt.subplot(2,2,1)
 plt.imshow(mars_image_expert, interpolation="nearest", aspect="auto", cmap=cmap)
 plt.title("Experts ground truth")
+plt.grid(False)
 
 plt.subplot(2,2,2)
 plt.imshow(mars_image_kmeans, interpolation="nearest", aspect="auto", cmap=cmap)
 plt.title("With the kmeans algorithm")
+plt.grid(False)
 
 plt.subplot(2,2,3)
 plt.imshow(mars_image_gmm, interpolation="nearest", aspect="auto", cmap=cmap)
 plt.title("With the GMM algorithm")
+plt.grid(False)
 
 plt.subplot(2,2,4)
 plt.imshow(mars_image_gmm, interpolation="nearest", aspect="auto", cmap=cmap)
 plt.title("With the CAH algorithm")
+plt.grid(False)
 
 plt.tight_layout()
 plt.show()

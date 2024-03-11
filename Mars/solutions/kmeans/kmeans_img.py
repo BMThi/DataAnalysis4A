@@ -5,4 +5,6 @@ mars_image = clusters_pca.reshape((n_pixel_x, n_pixel_y))
 
 plt.figure(figsize = (10,10))
 plt.imshow(mars_image, interpolation="nearest", aspect="auto", cmap=cmap)
+
+plt.grid(False)
 plt.show()
