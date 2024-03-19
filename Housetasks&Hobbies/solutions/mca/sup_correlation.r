@@ -1,0 +1,1 @@
+fviz_mca_var(res.mca, choice="mca.cor", repel=TRUE)
