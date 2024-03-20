@@ -54,7 +54,7 @@ _Goal:_ To apply the different concepts studied during the course on clustering 
 
 ##  PART III: Advanced factorial methods
 
-**TP - Housetasks & Hobbies** - [Exploration of basic sociological data: division of household tasks within a couple, leisure activities, etc.](Housetasks&Hobbies/) <br>
+**TP - Housetasks & Hobbies** - [Exploration of basic sociological data: division of household tasks within a couple, leisure activities, _etc._](Housetasks&Hobbies/) <br>
 _Goal:_ To use in practice Correspondence Analysis (**CA**) and Multiple Correspondence Analysis (**CA**), using [R](https://www.r-project.org/) language.
 
 **TP - Movie Lens** - [What movie should I watch this evening?](MovieLens/) <br>
