@@ -1,0 +1,35 @@
+hobbies = read.table("data_MCA_Hobbies.csv", header=TRUE, sep=";")
+
+print("Before transformation:")
+summary(hobbies)
+
+# --- #
+
+hobbies[,"Reading"] = as.factor(hobbies[,"Reading"])
+hobbies[,"Listening.music"] = as.factor(hobbies[,"Listening.music"])
+hobbies[,"Cinema"] = as.factor(hobbies[,"Cinema"])
+hobbies[,"Show"] = as.factor(hobbies[,"Show"])
+hobbies[,"Exhibition"] = as.factor(hobbies[,"Exhibition"])
+hobbies[,"Computer"] = as.factor(hobbies[,"Computer"])
+hobbies[,"Sport"] = as.factor(hobbies[,"Sport"])
+hobbies[,"Walking"] = as.factor(hobbies[,"Walking"])
+hobbies[,"Travelling"] = as.factor(hobbies[,"Travelling"])
+hobbies[,"Playing.music"] = as.factor(hobbies[,"Playing.music"])
+hobbies[,"Collecting"] = as.factor(hobbies[,"Collecting"])
+hobbies[,"Volunteering"] = as.factor(hobbies[,"Volunteering"])
+hobbies[,"Mechanic"] = as.factor(hobbies[,"Mechanic"])
+hobbies[,"Gardening"] = as.factor(hobbies[,"Gardening"])
+hobbies[,"Knitting"] = as.factor(hobbies[,"Knitting"])
+hobbies[,"Cooking"] = as.factor(hobbies[,"Cooking"])
+hobbies[,"Fishing"] = as.factor(hobbies[,"Fishing"])
+hobbies[,"TV"] = as.factor(hobbies[,"TV"])
+
+hobbies[,"Sex"] = as.factor(hobbies[,"Sex"])
+hobbies[,"Age"] = as.factor(hobbies[,"Age"])
+hobbies[,"Marital.status"] = as.factor(hobbies[,"Marital.status"])
+hobbies[,"Profession"] = as.factor(hobbies[,"Profession"])
+
+print("")
+print("After transformation:")
+summary(hobbies)
+head(hobbies)
