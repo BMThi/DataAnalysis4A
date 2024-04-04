@@ -31,10 +31,10 @@ The tutorials of this course are in the form of Jupyter notebooks.
 ## PART I: Basic dimension reduction methods
 
 **TP - Digits** - [Visualization and denoising of handwritten digits](Digits/). <br>
-_Goal:_ Refresh Principal Component Analysis (PCA) and the associated [Python](https://www.python.org/) formulas. Apply this technique to a simple dataset made up of handwritten digits.
+_Goal:_ Refresh Principal Component Analysis (**PCA**) and the associated [Python](https://www.python.org/) formulas. Apply this technique to a simple dataset made up of handwritten digits.
 
 **TP - Human Resources (HR)** - [HR Data Analysis and Attrition Prediction](HumanResources/). <br>
-_Goal:_ Implement a classification using a logistic regression model on the one hand, and an LDA decomposition on the other, on HR data.
+_Goal:_ Implement a classification using a logistic regression model on the one hand, and an **LDA** decomposition on the other, on HR data.
 
 <br>
 
@@ -42,10 +42,10 @@ _Goal:_ Implement a classification using a logistic regression model on the one 
 ## PART II: Clustering methods
 
 **TP - Wine** - [Study of different physico-chemical measurements on wine](Wine/). <br>
-_Goal:_ To apply the different concepts studied during the course on clustering on _quantitative_ data, using [R](https://www.r-project.org/) language.
+_Goal:_ To apply the different concepts studied during the course on **clustering** on _quantitative_ data, using [R](https://www.r-project.org/) language.
 
 **TP - Mars** - [Large multi-spectral image segmentation: Representing the geological diversity of the surface of Mars](Mars/). <br>
-_Goal:_ To apply the different concepts studied during the course on clustering on _quantitative_ data, using [Python](https://www.python.org/) language. More precisely, apply clustering to pixels of a multi-spectral image representing the surface of Mars.
+_Goal:_ To apply the different concepts studied during the course on **clustering** on _quantitative_ data, using [Python](https://www.python.org/) language. More precisely, apply clustering to pixels of a multi-spectral image representing the surface of Mars.
 
 <br>
 
