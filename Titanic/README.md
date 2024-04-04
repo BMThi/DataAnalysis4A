@@ -1,5 +1,5 @@
 ## Factor Analysis of Mixed Data - Titanic tutorial
-### Titanic Survival Prediction_
+### Titanic Survival Prediction
 
 In this tutorial, we will use the [titanic dataset](https://www.kaggle.com/competitions/titanic/data), from Kaggle competition "_Titanic - Machine Learning from Disaster_".
 
