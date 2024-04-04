@@ -1,0 +1,9 @@
+mca.plot(
+    titanic_quali,
+    x_component=0,
+    y_component=1,
+    show_column_markers=True,
+    show_row_markers=True,
+    show_column_labels=False,
+    show_row_labels=False
+)
