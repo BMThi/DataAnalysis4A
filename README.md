@@ -56,7 +56,7 @@ _Goal:_ To apply the different concepts studied during the course on clustering 
 _Goal:_ To use in practice Correspondence Analysis (**CA**) and Multiple Correspondence Analysis (**MCA**), using [R](https://www.r-project.org/) language.
 
 **TP - Titanic** - [Titanic Survival Prediction](Titanic/) <br>
-_Goal:_ To mobilise several dimension reduction algorithms covered in the lesson (PCA, MCA, MFA) and attempt to predict passengers' chances of survival.
+_Goal:_ To mobilise several dimension reduction algorithms covered in the lesson (**PCA**, **MCA**, **MFA**) and attempt to predict passengers' chances of survival, using [Python](https://www.python.org/) language.
 
 **TP - Movie Lens** - [What movie should I watch this evening?](MovieLens/) <br>
-_Goal:_ To use in practice Non-Negative Matrix Factorization (**NMF**). More precisely, to build a movie recommendation system.
+_Goal:_ To use in practice Non-Negative Matrix Factorization (**NMF**), using [Python](https://www.python.org/) language. More precisely, to build a movie recommendation system.
