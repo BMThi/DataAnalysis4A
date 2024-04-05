@@ -1,0 +1,11 @@
+p = sns.catplot(data=titanic_thresh, x='age', kind='count', hue='age')
+p.set_xticklabels([])
+plt.title('Breakdown of Age groups')
+plt.ylabel('')
+plt.plot()
+
+p = sns.catplot(data=titanic_thresh, x='fare', kind='count', hue='fare')
+p.set_xticklabels([])
+plt.title('Breakdown of Fare groups')
+plt.ylabel('')
+plt.plot()
