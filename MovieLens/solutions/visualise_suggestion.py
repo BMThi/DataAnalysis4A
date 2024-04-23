@@ -1,3 +1,5 @@
+# Visualise suggestion
+
 cmap = plt.get_cmap('tab20', len(genre))
 cmap = colors.ListedColormap(cmap.colors[suggested_movies['Genre'].values.squeeze().tolist()])
 

@@ -1,3 +1,5 @@
+# Visual comparison
+
 print("User %i: A %i year old" % (user_idx, A), G, O,'\n')
 
 fig, axes = plt.subplots(1, 2, figsize=(20, 10), sharex=True)

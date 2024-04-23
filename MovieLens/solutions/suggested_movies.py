@@ -1,3 +1,5 @@
+# Suggested movies
+
 n_recommendations = 5
 
 watch_index = np.random.randint(0, len(movies_df["Title"]))

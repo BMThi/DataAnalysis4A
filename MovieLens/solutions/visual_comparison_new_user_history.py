@@ -1,3 +1,5 @@
+# Visual comparison
+
 print("New user: \n")
 
 fig, axes = plt.subplots(1, 2, figsize=(20, 10), sharex=True)

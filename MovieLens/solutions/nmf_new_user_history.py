@@ -1,3 +1,5 @@
+# Recompute NMF
+
 newR = np.r_[R, my_ratings.T]
 
 new_nmf = NMF(n_components=20, init="nndsvda", max_iter=int(1e3))
