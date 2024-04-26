@@ -1,3 +1,5 @@
+# Make recommendations
+
 n_recommendations = 5
 
 ratings_user = newR[-1, :]
@@ -39,7 +41,7 @@ for ii in predicted_movies_index[:5]:
 # ----- #
 
 print('Favorite movies:')
-print(favorite_movies)
+display(favorite_movies)
 print('')
 print('Predicted movies:')
-print(predicted_movies)
+display(predicted_movies)

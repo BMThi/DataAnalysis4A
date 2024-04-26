@@ -1,3 +1,5 @@
+# Recommendations - known user
+
 n_recommendations = 5
 
 user_idx = np.random.randint(n_users)

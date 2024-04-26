@@ -1,3 +1,5 @@
+# Favorite Movies
+
 print("Favorite movies for user %i: A %i year old" % (user_idx, A), G, O,'\n')
 
 # ----- #

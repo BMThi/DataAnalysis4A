@@ -1,3 +1,5 @@
+# Top topics
+
 topics_used = W[user_idx, :]
 top_topics = topics_used.argsort()[: -3 - 1 : -1]
 top_topics.sort()
